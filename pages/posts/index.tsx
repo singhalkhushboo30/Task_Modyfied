@@ -1,7 +1,7 @@
-
+import React from 'react';
 import Link from 'next/link';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="container mt-5">
       <h1 className="mb-4">Welcome to WordPress Blog Viewer</h1>
@@ -16,4 +16,6 @@ export default function Home() {
       </ul>
     </div>
   );
-}
+};
+
+export default Home;
